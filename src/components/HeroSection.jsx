@@ -42,7 +42,6 @@ const HeroSection = () => {
               wrapper="span"
               speed={50}
               style={{
-                fontSize: "4rem",
                 display: "inline-block",
                 marginTop: "25px",
               }}
@@ -57,7 +56,7 @@ const HeroSection = () => {
             embark on this digital journey with a mission to transform
             imaginative ideas into seamless, user-friendly experiences.
           </p>
-          <div className="flex ">
+          <div className="flex flex-wrap ">
             <div>
               <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-900 text-white mt-3">
                 <Link
@@ -79,21 +78,21 @@ const HeroSection = () => {
               </button>
             </div>
 
-            <div className="flex justify-center items-center mt-4 ml-5 ">
+            <div className="flex justify-center items-center mt-4 ml-8 ">
               <Link
                 href="https://www.linkedin.com/in/irigela-jhansi-reddy-798950200/"
                 title="Linkdin"
               >
-                <FaLinkedin className="text-4xl mr-3 hover:skew-x-3 -skew-x-3 " />
+                <FaLinkedin className="text-4xl mr-8 hover:skew-x-3 -skew-x-3 text-white" />
               </Link>
               <Link href="https://github.com/JhansiIrigela" title="Github">
-                <FaGithub className="text-4xl  mr-3 hover:skew-x-3 -skew-x-3" />
+                <FaGithub className="text-4xl  mr-8 hover:skew-x-3 -skew-x-3 text-white" />
               </Link>
               <Link
                 href="https://www.instagram.com/jhaan_seee/"
                 title="Instagram"
               >
-                <IoLogoInstagram className="text-4xl  mr-3 hover:skew-x-3 -skew-x-3" />
+                <IoLogoInstagram className="text-4xl  mr-8 hover:skew-x-3 -skew-x-3 text-white" />
               </Link>
             </div>
           </div>
