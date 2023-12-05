@@ -40,7 +40,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Certificate in MernStack</li>
+        <li>Certificate in MERN-Stack</li>
         <li>From: Be-practical </li>
       </ul>
     ),
@@ -69,8 +69,8 @@ const AboutSection = () => {
             HTML, CSS, and JavaScript, with hands-on experience in React. Eager
             to contribute to innovative projects and grow in the dynamic world
             of web development. Open to learning and collaborating with
-            like-minded professionals. Let's build something incredible
-            together! 🚀 #ReactJS #FrontEndDeveloper
+            like-minded professionals. Let&apos;s build something incredible
+            together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
